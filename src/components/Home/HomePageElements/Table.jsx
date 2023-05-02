@@ -13,7 +13,7 @@ export default class Table extends Component {
     componentDidMount() {
             const options = {
                 method: 'GET',
-                url: 'https://car-data.p.rapidapi.com/cars',
+                url: `https://car-data.p.rapidapi.com/cars`,
                 params: {limit: '10', page: '0'},
                 headers: {
                   'X-RapidAPI-Key': '1a04c9bf10mshc0ee6b403e14ab8p1e0a98jsnf29149217dba',
