@@ -1,27 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class DataTable extends Component {
-    render() {
-        return (
-            <tr>
-                <td>
-                    {this.props.obj.id}
-                </td>
-                <td>
-                    {this.props.obj.year}
-                </td>
-                <td>
-                    {this.props.obj.make}
-                </td>
-                <td>
-                    {this.props.obj.model}
-                </td>
-                <td>
-                    {this.props.obj.type}
-                </td>
-            </tr>
-        );
-    }
+function DataTable(props) {
+    return (
+        <tr>
+            <td>
+                {props.obj.id}
+            </td>
+            <td>
+                {props.obj.year}
+            </td>
+            <td>
+                {props.obj.make}
+            </td>
+            <td>
+                {props.obj.model}
+            </td>
+            <td>
+                {props.obj.type}
+            </td>
+        </tr>
+    );
 }
 
 export default DataTable;
