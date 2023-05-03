@@ -7,7 +7,6 @@ export default function Home() {
     <>
       <Hero></Hero>
       <Table></Table>
-      {/* <NewApiComponent></NewApiComponent> */}
     </>
   );
 }
