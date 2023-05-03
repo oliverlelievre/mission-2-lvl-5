@@ -1,10 +1,9 @@
 import React from "react";
-import styles from "./Hero.module.css";
 
 const Hero = () => {
 
     return (
-      <div className={styles.hero}>
+      <div className="hero">
       <div className="container">
         <div className="hero__content">
           <h1 className="hero__title">Welcome to the <span className="hero__title--highlight">React</span> course</h1>

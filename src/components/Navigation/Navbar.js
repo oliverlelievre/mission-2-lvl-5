@@ -1,15 +1,27 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
 export default function Navbar() {
   const path = window.location.pathname;
   return (
-    <nav className="nav">
-      <Link to="/" className="nav__logo">
+    <nav className="navbar">
+      <Link to="/" className="navbar__logo">
         Turners Cars
       </Link>
-      <ul>
-        <CustomLink to="/pricing">Pricing</CustomLink>
-        <CustomLink to="/about">About</CustomLink>
-      </ul>
+      <div class="navbar__bars">
+        <FontAwesomeIcon icon={faBars} />
+      </div>
+      <div class="navbar__menu">
+        <ul>
+          <CustomLink class="navbar__menu--link" to="/pricing">
+            Pricing
+          </CustomLink>
+          <CustomLink class="navbar__menu--link" to="/about">
+            About
+          </CustomLink>
+        </ul>
+      </div>
     </nav>
   );
 }
