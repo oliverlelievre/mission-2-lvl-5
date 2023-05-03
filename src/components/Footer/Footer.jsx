@@ -1,10 +1,9 @@
 import React from 'react';
-import styles from "./Footer.module.css";
 
 function Footer() {
   return (
     <footer>
-      <div className={styles.container}>
+      <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-4">
             <h3>About Us</h3>

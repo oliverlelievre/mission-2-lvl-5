@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import DataTable from './DataTable';
-import styles from "./Table.module.css";
+// import styles from "./Table.module.css";
 
 export default class Table extends Component {
 
@@ -30,19 +30,6 @@ export default class Table extends Component {
               });
     }
 
-//     function getMake() {
-//   // Get the text in the text box
-//   const carMake = document.getElementById("carMake").value;
-//   // Call the API for getting the city's weather
-//   fetch(
-//     `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=1d2bfc8b390e7da163843e07f08dc678&units=metric`
-//   )
-//     .then((result) => result.json())
-//     .then((weatherInfo) => {
-//       // Display the weather information on screen
-//       displayWeather(weatherInfo.main.temp, weatherInfo.wind.speed);
-//     });
-// }
 
     dataTable() {
         return this.state.usersCollection.map((data, i) => {
@@ -53,13 +40,12 @@ export default class Table extends Component {
     render() {
         return (
             <div className="wrapper-users">
-            <div className={styles.container}>
+                <div className="container">
                     <div className="row">
                         <div className="col-12 col-md-4 offset-md-8">
                             <form>
-                                <label for="carMake">Search : </label>
-                                <input id="carMake" type="text" placeholder="Search"></input>
-                                <button onclick="getMake()">Discover</button>
+                                <label>Search : </label>
+                                <input type="text" placeholder="Search"></input>
                             </form>
                         </div>
                     </div>

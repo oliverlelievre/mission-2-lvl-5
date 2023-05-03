@@ -129,7 +129,121 @@ body {
 /* hero section */
 
 .hero {
-    background-color: red;
+        background-image: url('../public/images/tina-hero.png');
     height: 50vh;
     width: 100%;
+    background-size:contain;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.6);
+            /* Change the alpha value (0-1) to adjust the darkness */
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.hero__title {
+    text-align: center;
+}
+
+.hero__btn {
+    margin-top: 1rem;
+}
+
+/* table styling */
+
+.wrapper-users {
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.wrapper-users form {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-users label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.wrapper-users input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wrapper-users table {
+    width: 100%;
+}
+
+.wrapper-users th,
+.wrapper-users td {
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper-users th {
+    background-color: #333;
+    color: #fff;
+}
+
+.wrapper-users td {
+    background-color: #f2f2f2;
+}
+
+/* footer */
+
+footer {
+    background-color: #f2f2f2;
+    color: #black;
+    padding: 50px 0;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #black;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    footer h3 {
+        font-size: 1.2em;
+    }
+
+    footer p {
+        font-size: 0.9em;
+    }
+
+    footer ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
