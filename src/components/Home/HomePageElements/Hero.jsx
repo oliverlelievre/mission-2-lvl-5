@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container">
         <div className="hero__content">
           <h1 className="hero__title">We love buying cars! </h1>
-            <button className="hero__btn">Get Started</button>
+            <button className="hero__btn">Get Started!</button>
         </div>
       </div>
     </div>

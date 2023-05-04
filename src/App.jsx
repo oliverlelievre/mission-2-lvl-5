@@ -1,5 +1,5 @@
 import Navbar from "./components/Navigation/Navbar";
-import Dialogflowchat from "./components/ChatBot/Dialogflowchat";
+import DialogflowChatbot from "./components/ChatBot/DialogflowChatbot";
 import Footer from "./components/Footer/Footer";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
-      <Dialogflowchat />
+      <DialogflowChatbot />
       <Footer></Footer>
     </>
   );
