@@ -3,6 +3,7 @@ import axios from 'axios';
 import DataTable from './DataTable';
 import './Table.scss';
 
+
 function Table() {
   const [usersCollection, setUsersCollection] = useState([]);
 

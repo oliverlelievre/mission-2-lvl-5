@@ -6,6 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import { MantineProvider } from "@mantine/core";
+// import dotenv from "dotenv";
+// dotenv.config();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

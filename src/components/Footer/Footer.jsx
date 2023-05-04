@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="footer__container">
         <div className="footer__row">
           <div className="col-md-3">
-            <h3>Cars</h3>
+            <h3>CARS</h3>
             <ul>
-              <li><a href="#">HOW TO BUY</a></li>
+              <li><a href="#">How to Buy</a></li>
               <li><a href="#">Sell your Car</a></li>
               <li><a href="#">Finance & Insurance</a></li>
             </ul>
@@ -23,9 +23,9 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3">
-            <h3>SEARCH FOR</h3>
+            <h3>CARS</h3>
             <ul>
-              <li><a href="#">Cars</a></li>
+              <li><a href="#">Search For</a></li>
               <li><a href="#">Trucks & Machinery</a></li>
               <li><a href="#">Link 3</a></li>
             </ul>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__container__two">
-        <h1>© 2022 Turners</h1>
+        <span>© 2022 Turners</span>
       </div>
     </footer>
   );
