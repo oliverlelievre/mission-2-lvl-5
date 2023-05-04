@@ -1,0 +1,39 @@
+.wrapper-users {
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.wrapper-users form {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-users label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.wrapper-users input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wrapper-users table {
+    width: 100%;
+}
+
+.wrapper-users th,
+.wrapper-users td {
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper-users th {
+    background-color: #333;
+    color: #fff;
+}
+
+.wrapper-users td {
+    background-color: #f2f2f2;
+}

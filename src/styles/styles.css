@@ -49,7 +49,7 @@ body {
     background-color: #777;
 } */
 
-.navbar {
+/* .navbar {
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -124,9 +124,11 @@ body {
 .navbar__menu--button:hover {
     background: #1FC41F;
     transition: all 0.3s ease;
-}
+} */
 
 /* hero section */
+
+/*
 
 .hero {
         background-image: url('../assets/tina-hero.png');
@@ -136,7 +138,7 @@ body {
         background-position: center;
         background-color: rgba(0, 0, 0, 0.6);
             /* Change the alpha value (0-1) to adjust the darkness */
-}
+/* }
 
 .hero__title {
     color: #fff;
@@ -175,10 +177,12 @@ body {
     color: #007BFF;
     transition: all 0.3s ease;
 }
+ */
+
 
 /* table styling */
 
-.wrapper-users {
+/* .wrapper-users {
     margin: 50px auto;
     max-width: 900px;
 }
@@ -216,47 +220,60 @@ body {
 
 .wrapper-users td {
     background-color: #f2f2f2;
-}
+} */
 
 /* footer */
 
-footer {
-    background-color: #f2f2f2;
-    color: black;
-    padding: 50px 0;
+/* footer {
+    background-color: #9A9B9C;
+    padding: 30px 0; */
+    /* margin-bottom: 0; */
+/* } */
+
+/* .footer__container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-footer h3 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+.footer__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-footer p {
-    font-size: 1em;
+.col-md-3 {
+    width: calc(25% - 15px);
+    padding: 0 15px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
-footer ul li {
-    display: inline-block;
-    margin-right: 10px;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-footer ul li a {
-    color: #black;
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #333;
     text-decoration: none;
 }
 
-@media (max-width: 767px) {
-    footer h3 {
-        font-size: 1.2em;
-    }
-
-    footer p {
-        font-size: 0.9em;
-    }
-
-    footer ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+a:hover {
+    text-decoration: underline;
 }
+
+.footer__container__two {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-bottom: 0;
+} */

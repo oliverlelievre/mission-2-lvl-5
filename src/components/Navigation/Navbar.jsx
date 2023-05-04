@@ -2,6 +2,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from "./logo.png";
+import './Navbar.scss'
 
 export default function Navbar() {
   const path = window.location.pathname;

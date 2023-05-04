@@ -1,33 +1,50 @@
-import React from 'react';
+import React from "react";
+import './Footer.scss'
 
-function Footer() {
+const Footer = () => {
   return (
     <footer>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12 col-md-4">
-            <h3>About Us</h3>
-            <p>We are the leading car auction website in the country, bringing together buyers and sellers of new and used cars from all over.</p>
+      <div className="footer__container">
+        <div className="footer__row">
+          <div className="col-md-3">
+            <h3>Cars</h3>
+            <ul>
+              <li><a href="#">HOW TO BUY</a></li>
+              <li><a href="#">Sell your Car</a></li>
+              <li><a href="#">Finance & Insurance</a></li>
+            </ul>
           </div>
-          <div className="col-sm-12 col-md-4">
-            <h3>Contact Us</h3>
-            <p>123 Main Street, Anytown USA</p>
-            <p>Email: info@auctioncars.com</p>
-            <p>Phone: (555) 123-4567</p>
+          <div className="col-md-3">
+            <h3>FINANCE & INSURANCE</h3>
+            <ul>
+              <li><a href="#">Finance Homepage</a></li>
+              <li><a href="#">Car & Personal Finance</a></li>
+              <li><a href="#">Loan Calculator</a></li>
+            </ul>
           </div>
-          <div className="col-sm-12 col-md-4">
-            <h3>Follow Us</h3>
-            <ul className="list-inline">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">LinkedIn</a></li>
+          <div className="col-md-3">
+            <h3>SEARCH FOR</h3>
+            <ul>
+              <li><a href="#">Cars</a></li>
+              <li><a href="#">Trucks & Machinery</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+          <div className="col-md-3">
+            <h3>ABOUT US</h3>
+            <ul>
+              <li><a href="#">Overview</a></li>
+              <li><a href="#">Turners Careers</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
             </ul>
           </div>
         </div>
       </div>
+      <div className="footer__container__two">
+        <h1>© 2022 Turners</h1>
+      </div>
     </footer>
   );
-}
+};
 
 export default Footer;

@@ -1,0 +1,47 @@
+.hero {
+    background-image: url('../../../assets/tina-hero.png');
+    height: 50vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Change the alpha value (0-1) to adjust the darkness */
+}
+
+.hero__title {
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.hero__title {
+    text-align: center;
+}
+
+.hero__btn {
+    margin-top: 5rem;
+    padding: 0.8rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border-color: black;
+}
+
+.hero__btn:hover {
+    color: #007BFF;
+    transition: all 0.3s ease;
+}
