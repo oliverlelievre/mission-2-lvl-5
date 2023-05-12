@@ -13,9 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <MantineProvider withGlobalStyles withNormalizeCSS>
-        <App />
-      </MantineProvider>
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );

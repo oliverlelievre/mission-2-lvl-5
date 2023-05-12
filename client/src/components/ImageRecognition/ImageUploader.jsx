@@ -23,6 +23,24 @@ import ute2 from "../../assets/ute2.jpg";
 import minivan1 from "../../assets/minivan1.jpg";
 import minivan2 from "../../assets/minivan2.jpg";
 
+// var express = require('express')
+// var cors = require('cors')
+// var app = express()
+
+// app.use(cors()) //Add CORS middleware
+
+// app.post('/create-post/:id', function (req, res) {
+//   res.setHeader('Content-Type', 'image/png');
+//   console.log("test")
+//   fs.writeFile("/tmp/test.jpg", req.body.bild, 'binary', function(err) {
+//     if(err)
+//       console.log(err);
+//     else
+//       console.log("The file was saved!");
+//       return res.send('WORK PLEASE')
+//   });
+// });
+
 
 
 const carData = [
